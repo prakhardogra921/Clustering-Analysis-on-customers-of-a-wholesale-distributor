@@ -14382,7 +14382,7 @@ kiSpCnKyJEmSJEmSJEmSVIX/B3WY/UqGxwtkAAAAAElFTkSuQmCC
 <p><strong>Answer:</strong></p>
 <ul>
 <li>The pairs <em>Milk-Grocery</em> , <em>Grocery-Detergents_Paper</em> and <em>Detergents_Paper-Milk</em> show negative correlation. And the rest of the pairs show some degree of positive correlation.</li>
-<li>And as for the feature selected above (<em>Grocery</em>) shows some degree of positive correlation with all the other features(except Milk and Detergents_Paper). This confirms the suspicions to some extent about the relevance of the feature which I tried to predict since <em>Grocery</em> doesn't show any negative correlation with other features except <em>Milk</em> and <em>Detergents_Paper</em>.</li>
+<li>And as for the feature selected above (<em>Grocery</em>) shows some degree of positive correlation with all the other features(except Milk and Detergents_Paper). This confirms the suspicions to some extent about the relevance of the feature which I tried to predict, since <em>Grocery</em> shows a correlation with other features except <em>Milk</em> and <em>Detergents_Paper</em>.</li>
 <li>Data for those features is distributed in a skewed-right format.</li>
 </ul>
 
@@ -19944,13 +19944,13 @@ RK5CYII=
 <li>Total variance explained by the first and the second component is 0.6832.</li>
 <li>Total variance explained by the first four components is 0.9244.</li>
 <li>First four dimensions represent the following in terms of customer spending<ul>
-<li>First component represents high variance of the feature "Detergents_Paper".</li>
-<li>Second component represents high variance of the features "Fresh", "Frozen" and "Delicatessen"</li>
-<li>Third component represents high variance of the feature "Fresh" and "Delicatessen"</li>
-<li>Forth component represents high variance of the feature "Fresh" and "Frozen"</li>
+<li>In the first component, the dominant features are "Detergents_Paper", "Grocery" and "Milk" (All of them show positive correlation with each other).</li>
+<li>In the second component, the dominant features are "Fresh", "Frozen" and "Delicatessen" (All of them show positive correlation with each other).</li>
+<li>In the third component, the dominant features are "Fresh" and "Delicatessen" (But they show negative correlation with each other).</li>
+<li>In the forth component the dominant features are "Frozen" and "Delicatessen" (But they show negative correlation with each other).</li>
 </ul>
 </li>
-<li>Moreover, the 3rd and the 4th component have an anti-correlation with respect to 1st and 2nd components.</li>
+<li>Moreover, the 3rd and the 4th component have an anti-correlation (dominant features are negatively correlated) unlike the 1st and 2nd component.</li>
 <li>First four dimensions capture a good amount of variance of all (except <em>Grocery</em>) the original dimensions of the data set.</li>
 </ul>
 
